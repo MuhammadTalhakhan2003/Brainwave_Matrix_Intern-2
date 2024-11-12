@@ -1,0 +1,37 @@
+<!-- checkout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+  </header>
+
+  <div id="order-summary">
+    <h2>Order Summary</h2>
+    <ul id="cart-items-summary">
+      <!-- Cart items will be listed here -->
+    </ul>
+    <p>Total: $<span id="total-price"></span></p>
+    <h3>Payment</h3>
+    <form id="payment-form">
+      <label for="card-name">Card Name:</label>
+      <input type="text" id="card-name" placeholder="John Doe" required>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" placeholder="1234 5678 9101 1121" required>
+
+      <button type="submit">Proceed to Payment</button>
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

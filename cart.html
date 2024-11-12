@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cart-items">
+    <h2>Your Cart</h2>
+    <!-- Cart items will be dynamically added here -->
+  </section>
+
+  <section id="payment-method">
+    <h3>Select Payment Method</h3>
+    <button onclick="handlePayment('cod')">Cash on Delivery</button>
+    <button onclick="handlePayment('bank')">Bank Transfer</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 E-Commerce Website</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
