@@ -26,7 +26,3 @@ This is a simple e-commerce website built using HTML, CSS, and JavaScript. The w
     git clone https://github.com/MuhammadTalhakhan2003/ecommerce-website.git
     ```
 
-2. Open the `index.html` file in your browser to view the website.
-
-## File Structure
-
